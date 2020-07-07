@@ -5,7 +5,7 @@ import by.tr.mod12.Book;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Library {
+public class Library {// для этой сущности следовало бы еще добавить equals и hashCode
     private List<Book> library = new ArrayList<Book>();
     public Library(){}
     public void addBook(Book book){
@@ -29,3 +29,4 @@ public class Library {
                 '}';
     }
 }
+// старайся не лепись код друг к другу, пустые строки делают код более структурным
